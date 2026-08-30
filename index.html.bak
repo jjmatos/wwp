@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hermes Studio — Inicio</title>
+<style>
+  :root{ --bg:#0a0b14; --a:#7c5cff; --a2:#21d4fd; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; min-height:100vh; color:#eef1ff;
+    font-family:'Inter',system-ui,-apple-system,sans-serif;
+    background:
+      radial-gradient(1200px 600px at 80% -10%, rgba(124,92,255,.25), transparent 60%),
+      radial-gradient(900px 500px at -10% 110%, rgba(33,212,253,.18), transparent 60%),
+      var(--bg); }
+  .wrap{ max-width:1040px; margin:0 auto; padding:80px 24px; }
+  .hero{ padding:48px; border-radius:28px; border:1px solid rgba(255,255,255,.12);
+    background:rgba(20,22,38,.5); backdrop-filter:blur(20px) saturate(160%);
+    box-shadow:0 30px 80px rgba(0,0,0,.5); }
+  .badge{ display:inline-block; padding:6px 14px; border-radius:999px; font-size:13px;
+    border:1px solid rgba(255,255,255,.15); background:rgba(255,255,255,.05); color:#9aa3c7; }
+  h1{ font-size:clamp(32px,6vw,56px); margin:18px 0 10px; line-height:1.05;
+    background:linear-gradient(90deg,#fff,#b9b3ff); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  p.lead{ color:#9aa3c7; font-size:18px; max-width:620px; line-height:1.6; }
+  .cta{ margin-top:26px; display:flex; gap:12px; flex-wrap:wrap; }
+  .btn{ padding:13px 22px; border-radius:14px; font-weight:700; border:0; cursor:pointer; color:#fff;
+    background:linear-gradient(135deg,var(--a),var(--a2)); box-shadow:0 10px 30px rgba(124,92,255,.45); }
+  .btn.ghost{ background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.15); box-shadow:none; }
+  nav{ display:flex; gap:18px; padding:22px 24px; max-width:1040px; margin:0 auto; }
+  nav a{ color:#cdd2f0; text-decoration:none; font-weight:600; }
+</style>
+</head>
+<body data-page="home">
+  <nav><a href="/">Inicio</a><a href="/about/">Acerca de</a><a href="/services/">Servicios</a></nav>
+  <div class="wrap"><div class="hms-patch" style="background: rgba(20, 24, 45, 0.65); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border: 1px solid rgba(124, 92, 255, 0.25); color: #eef1ff; padding: 5rem 2.5rem; border-radius: 20px; text-align: center; position: relative; overflow: hidden; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);">
+  <div style="position: absolute; top: -50px; left: -50px; width: 200px; height: 200px; background: radial-gradient(circle, rgba(124, 92, 255, 0.25) 0%, transparent 70%); border-radius: 50%; pointer-events: none; animation: pulse 6s infinite alternate;"></div>
+  <div style="position: absolute; bottom: -50px; right: -50px; width: 200px; height: 200px; background: radial-gradient(circle, rgba(33, 212, 253, 0.2) 0%, transparent 70%); border-radius: 50%; pointer-events: none; animation: pulse 8s infinite alternate-reverse;"></div>
+
+  <span style="display: inline-block; padding: 0.5rem 1.25rem; margin-bottom: 1.5rem; font-size: 0.875rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: #21d4fd; background: rgba(33, 212, 253, 0.1); border: 1px solid rgba(33, 212, 253, 0.3); border-radius: 50px; box-shadow: 0 0 15px rgba(33, 212, 253, 0.15);">
+    Siguiente Generación
+  </span>
+
+  <h2 style="font-size: clamp(2.5rem, 5vw, 3.5rem); font-weight: 800; margin-bottom: 1.5rem; background: linear-gradient(135deg, #eef1ff 30%, #7c5cff 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; line-height: 1.1;">
+    Tu web dinámica con chatbot flotante
+  </h2>
+
+  <p style="font-size: clamp(1rem, 2vw, 1.25rem); color: #9aa3c7; max-width: 700px; margin: 0 auto 2.5rem auto; line-height: 1.6;">
+    Revoluciona la interacción con tus usuarios mediante inteligencia artificial integrada. Ofrece respuestas instantáneas, eleva la retención y lleva tu experiencia digital al límite superior del diseño dark-glass.
+  </p>
+
+  <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+    <a href="#contacto" style="display: inline-flex; align-items: center; padding: 0.875rem 2rem; font-weight: 600; color: #ffffff; background: linear-gradient(135deg, #7c5cff 0%, #21d4fd 100%); border-radius: 14px; text-decoration: none; box-shadow: 0 10px 25px rgba(124, 92, 255, 0.4); transition: transform 0.3s ease, box-shadow 0.3s ease;">
+      Empezar Ahora
+    </a>
+    <a href="#demo" style="display: inline-flex; align-items: center; padding: 0.875rem 2rem; font-weight: 600; color: #eef1ff; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 14px; text-decoration: none; backdrop-filter: blur(10px); transition: background 0.3s ease, border-color 0.3s ease;">
+      Ver Demo
+    </a>
+  </div>
+</div></div>
+    <div class="hero">
+      <span class="badge">⚡ Powered by Hermes</span>
+      <div style="background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); color: white; padding: 4rem 2rem; border-radius: 1rem; text-align: center;"><h1 style="font-size: 3rem; font-weight: 800; margin-bottom: 1rem;">Tu web dinámica con chatbot flotante</h1><p style="font-size: 1.25rem; opacity: 0.9; margin-bottom: 2rem;">Revoluciona la interacción con tus usuarios y lleva tu negocio al siguiente nivel.</p><a href="#contacto" style="background: white; color: #6366f1; padding: 0.75rem 2rem; border-radius: 9999px; font-weight: bold; text-decoration: none; display: inline-block; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">Empieza ahora</a></div>
+      Abre el chat abajo a la derecha, pide contenido y Hermes lo aplica como parche directo a este <code><div class="hms-patch" style="background: rgba(20, 24, 45, 0.65); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border: 1px solid rgba(124, 92, 255, 0.2); border-radius: 20px; padding: 2.5rem; color: #eef1ff; box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4); max-width: 800px; margin: 2rem auto;">
+    <h2 style="font-size: 1.75rem; font-weight: 700; margin-bottom: 1rem; background: linear-gradient(135deg, #7c5cff, #21d4fd); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Directorio Estratégico de Capitales Europeas</h2>
+</div></code>. Tema vidrio oscuro y animaciones modernas incluidas.
+      <div class="cta">
+        <button class="btn" onclick="document.querySelector('.hms-fab').click()">Abrir asistente</button>
+        <a class="btn ghost" href="/about/">Ver otra página</a>
+      </div>
+    </div>
+    <main>
+      <!-- HERMES-PATCH -->
+<div class="hms-patch" style="background: rgba(18, 20, 38, 0.65); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border: 1px solid rgba(124, 92, 255, 0.18); border-radius: 20px; padding: 2.5rem; margin: 2rem auto; max-width: 900px; box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4); font-family: system-ui, -apple-system, sans-serif; color: #eef1ff;">
+  
+  <div style="margin-bottom: 2rem; text-align: center;">
+    <h2 style="font-size: 2.2rem; font-weight: 700; margin-bottom: 0.75rem; background: linear-gradient(135deg, #7c5cff, #21d4fd); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Nuestra Ubicación en Alicante</h2>
+    <p style="color: #9aa3c7; font-size: 1.05rem; line-height: 1.6; max-width: 650px; margin: 0 auto;">
+      Nos encontramos en el corazón de la Costa Blanca. Visítanos en Alicante, España, para descubrir cómo impulsamos la innovación digital desde el Mediterráneo hacia el mundo.
+    </p>
+  </div>
+
+  <div style="position: relative; width: 100%; height: 400px; border-radius: 16px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.08); background: rgba(10, 11, 24, 0.5);">
+    <iframe 
+      title="Mapa de ubicación de Alicante, España"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=-0.5037%2C38.3302%2C-0.4500%2C38.3750&amp;layer=mapnik&amp;marker=38.3452%2C-0.4810" 
+      style="width: 100%; height: 100%; border: 0; filter: invert(90%) hue-rotate(180deg) contrast(110%);" 
+      allowfullscreen="" 
+      loading="lazy">
+    </iframe>
+  </div>
+
+  <div style="margin-top: 1.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; font-size: 0.9rem; color: #9aa3c7; border-top: 1px solid rgba(255, 255, 255, 0.06); padding-top: 1.25rem;">
+    <span>📍 Alicante, Comunidad Valenciana, España</span>
+    <a href="https://www.openstreetmap.org/?mlat=38.3452&amp;mlon=-0.4810#map=13/38.3452/-0.4810" target="_blank" rel="noopener noreferrer" style="color: #21d4fd; text-decoration: none; font-weight: 500; transition: opacity 0.2s ease;">
+      Ver mapa ampliado &rarr;
+    </a>
+  </div>
+
+</div>
+
+<figure style="margin:24px auto;max-width:920px;text-align:center"><img src="/uploads/20260830-121809-70164b17-fix_que_conserven_los_mismos_202607121926.jpg" alt="fix_que_conserven_los_mismos_202607121926.jpeg" loading="lazy" style="max-width:100%;height:auto;border-radius:14px"><figcaption style="color:#9aa3c7;margin-top:8px;font-size:14px">fix_que_conserven_los_mismos_202607121926.jpeg</figcaption></figure>
+<section class="hms-patch" style="background: rgba(15, 12, 28, 0.7); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border: 1px solid rgba(124, 92, 255, 0.2); border-radius: 20px; padding: 40px; margin: 24px auto; max-width: 920px; box-shadow: 0 16px 32px rgba(0, 0, 0, 0.4);">
+    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 16px;">
+        <span style="display: inline-block; width: 12px; height: 12px; background: linear-gradient(135deg, #7c5cff, #21d4fd); border-radius: 50%; box-shadow: 0 0 10px rgba(124, 92, 255, 0.6);"></span>
+        <h2 style="color: #eef1ff; font-size: 1.8rem; font-weight: 700; margin: 0; letter-spacing: -0.5px;">Panel de Control HMS-Patch</h2>
+    </div>
+    
+    <p style="color: #9aa3c7; font-size: 1.05rem; line-height: 1.6; margin-bottom: 24px;">
+        Arquitectura modular de alto rendimiento con aislamiento visual avanzado. El motor de renderizado aplica capas de difuminado espacial y gradientes dinámicos para ofrecer una interfaz fluida, inmersiva y totalmente optimizada para entornos oscuros.
+    </p>
+
+    <div style="background: rgba(10, 8, 18, 0.6); border: 1px solid rgba(33, 212, 253, 0.15); border-radius: 14px; padding: 20px; font-family: monospace; font-size: 0.9rem; color: #21d4fd; overflow-x: auto; margin-bottom: 24px;">
+        &lt;section class="hms-patch" style="background: rgba(15, 12, 28, 0.7); backdrop-filter: blur(16px);"&gt;
+    </div>
+
+    <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+        <a href="#explorar" style="background: linear-gradient(135deg, #7c5cff, #21d4fd); color: #eef1ff; padding: 12px 24px; border-radius: 12px; text-decoration: none; font-weight: 600; box-shadow: 0 4px 15px rgba(124, 92, 255, 0.4); transition: opacity 0.2s;">Explorar Sistema</a>
+        <a href="#documentacion" style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(238, 241, 255, 0.1); color: #eef1ff; padding: 12px 24px; border-radius: 12px; text-decoration: none; font-weight: 600; transition: background 0.2s;">Documentación</a>
+    </div>
+</section><h2>Sin HTML</h2><p style="color:#9aa3c7">&lt;section class=&quot;hms-patch&quot; style=&quot;
+    background: rgba(15, 12, 28, 0.7);
+    backdrop-filter: blur(16px);
+<figure style="margin:24px auto;max-width:920px;text-align:center"><img src="/uploads/20260830-115325-e99bf712-Captura_de_pantalla_2026-05-15_a_las_5.52.16.png" alt="Captura de pantalla 2026-05-15 a las 5.52.16.png" loading="lazy" style="max-width:100%;height:auto;border-radius:14px"><figcaption style="color:#9aa3c7;margin-top:8px;font-size:14px">Captura de pantalla 2026-05-15 a las 5.52.16.png</figcaption></figure>Descubre las capitales de las principales naciones europeas en la siguiente tabla informativa.<section class="hms-patch">Tabla con 5 capitales de 5 países europeos</section><h2><section class="hms-patch" style="background: rgba(18, 14, 33, 0.65); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); border: 1px solid rgba(124, 92, 255, 0.2); border-radius: 20px; padding: 2.5rem; margin: 1.5rem 0; box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);">
+    <h2 style="color: #eef1ff; font-size: 2rem; margin-bottom: 1rem; font-weight: 700; letter-spacing: -0.025em; background: linear-gradient(135deg, #eef1ff 30%, #21d4fd 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Arquitectura Digital de Alto Rendimiento</h2>
+    <p style="color: #9aa3c7; font-size: 1.1rem; line-height: 1.6; margin-bottom: 1.25rem;">
+        Diseñado exclusivamente para creadores, desarrolladores y empresas visionarias que exigen velocidad, seguridad implacable y una interfaz inmersiva sin concesiones.
+    </p>
+    <p style="color: #9aa3c7; font-size: 1.05rem; line-height: 1.6; margin: 0;">
+        Nuestra propuesta combina una estética <span style="color: #7c5cff; font-weight: 600;">dark-glass</span> de vanguardia con un rendimiento optimizado al milisegundo, permitiéndote destacar en un ecosistema digital saturado mediante experiencias memorables y funcionales.
+    </p>
+</section></h2><p style="color:#9aa3c7">&lt;section class=&quot;hms-patch&quot; style=&quot;
+    background: rgba(15, 12, 28, 0.7);
+    backdrop-filter: blur(16</p>
+<section>tabla 5 capitales de 5 paises europèos</section>
+<p>tabla 5 capitales de 5 paises europèos</p>
+<h2>Tabla de colores</h2>
+<p>Explora la paleta visual con equivalencias entre polaco y español.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Polaco</th>
+      <th>Español</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      >
+    <tr>
+      <td>Czerwony</td>
+      <td>Rojo</td>
+    </tr>
+    <tr>
+      <td>Niebieski</td>
+      <td>Azul</td>
+    </tr>
+    <tr>
+      <td>Zielony</td>
+      <td>Verde</td>
+    </tr>
+    <tr>
+      <td>Żółty</td>
+      <td>Amarillo</td>
+    </tr>
+    <tr>
+      <td>Fioletowy</td>
+      <td>Violeta</td>
+    </tr>
+  </tbody>
+</table>
+<section class="hms-patch"><h2>Contenido IA</h2><p>Conecta tu API Key para contenido personalizado.</p></section>
+<section class="hms-patch">
+  <h2>Lista de 10 colores en polaco y espanol</h2>
+  <p>Contenido generado por Hermes para "home". Editalo o pide mas variantes.</p>
+  <div class="hms-patch-cards">
+    <div class="c"><b>Idea 1Describe aqui la primera idea.<br><img src="pato.jpg" alt="pato"><br><img src="pato.jpg" alt="pato"></b><p style="color:#9aa3c7;margin:6px 0 0">Describe aqui la primera idea.</p>
+    <div class="c"><b>Idea 2</b><p style="color:#9aa3c7;margin:6px 0 0">Describe aqui la segunda idea.</p></div>
+    <div class="c"><b>Idea 3</b><p style="color:#9aa3c7;margin:6px 0 0">Describe aqui la tercera idea.</p></div>
+  
+</section>
+<section class="hms-patch">
+  <h2>Que haces</h2>
+  <p>Contenido generado por Hermes para "home". Editalo o pide mas variantes.</p>
+  <div class="hms-patch-cards">
+    <div class="c"><b>Idea 1</b><p style="color:#9aa3c7;margin:6px 0 0">Describe aqui la primera idea.</p></div>
+    <div class="c"><b>Idea 2</b><p style="color:#9aa3c7;margin:6px 0 0">Describe aqui la segunda idea.</p></div>
+    <div class="c"><b>Idea 3</b><p style="color:#9aa3c7;margin:6px 0 0">Describe aqui la tercera idea.</p></div>
+  </div>
+</section>
+<section class="hms-patch">
+  <div class="hms-patch-glow"></div>
+  <h2>Genera tabla de 5 paises</h2>
+  <p>Contenido generado por Hermes para la página "home". Edítalo o pide más variantes al asistente.</p>
+  <div class="hms-patch-cards">
+    <div class="c"><b>Punto 1</b><p style="color:#9aa3c7;margin:6px 0 0">Describe aquí la primera idea.</p></div>
+    <div class="c"><b>Punto 2</b><p style="color:#9aa3c7;margin:6px 0 0">Describe aquí la segunda idea.</p></div>
+    <div class="c"><b>Punto 3</b><p style="color:#9aa3c7;margin:6px 0 0">Describe aquí la tercera idea.</p></div>
+  </div>
+</section>
+<section class="hms-patch">
+  <div class="hms-patch-glow"></div>
+  <h2>Que haces</h2>
+  <p>Contenido generado por Hermes para la página "home". Edítalo o pide más variantes al asistente.</p>
+  <div class="hms-patch-cards">
+    <div class="c"><b>Punto 1</b><p style="color:#9aa3c7;margin:6px 0 0">Describe aquí la primera idea.</p></div>
+    <div class="c"><b>Punto 2</b><p style="color:#9aa3c7;margin:6px 0 0">Describe aquí la segunda idea.</p></div>
+    <div class="c"><b>Punto 3</b><p style="color:#9aa3c7;margin:6px 0 0">Describe aquí la tercera idea.</p></div>
+  </div>
+</section>
+    
+  </div>
+  <link rel="stylesheet" href="/assets/widget.css">
+  <script src="/assets/widget.js"></script>
+</body>
+</html>
